@@ -1,0 +1,271 @@
+* {
+    font-size: 20px;
+}
+
+* {
+    color: #454839 !important;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    grid-area: header;
+    border-bottom: solid #27897E 2px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 35px;
+    grid-area: footer;
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-bottom: solid #FFA17A 2px;
+    animation-duration: 4s;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    margin: 15px;    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display:inline-block;
+    position: relative;
+    padding-left:25px;
+    padding-right:25px;
+    font-size: large;
+    font-family: 'Cinzel';
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    font-weight: 400;
+    padding: 1px;
+    border: 2px solid #FFA17A;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.footer__margin {
+    margin: 5px;
+}
+
+.gradiente__izquierda {
+    background-image: linear-gradient(to left, #97C4A3, #006C71);
+    border-radius: 1%;
+}
+
+.gradiente__derecha {
+    background-image: linear-gradient(to right, #97C4A3, #006C71);
+    border-radius: 1%;
+}
+
+.test {
+    text-align: center;
+    margin: 45px;
+}
+
+.logo {
+    margin: 25px;
+}
+
+.cuerpo__contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #27897E 2px;
+    grid-area: contenido;
+} 
+
+.carrusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead {
+    font-size: 26px !important;
+    font-style: italic;
+    animation-duration: 4s;
+}
+
+.btn {
+    margin: 7px;
+    background-color: none !important;
+    border: solid #FFA17A 2px;
+    animation-duration: 4s;
+}
+
+.btn {
+    font-family: 'Montserrat' !important;
+}
+
+.objetivos__forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aparecer {
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
+.contenidos {
+    display: grid;
+    align-items: center;
+}
+
+.border__radius {
+    border-radius: 100%;
+    height: 200px;
+    margin: 25px;
+}
+
+.contenido__carrusel {
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 450px;
+    min-height: 450px;
+    margin: 35px;
+    grid-area: uno;
+}
+.contenido__texto {
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 200px;
+    min-height: 200px;
+    margin: 35px;
+    text-align: center;
+    grid-area: dos;
+}
+
+.tienda__margin {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.imagen {
+    border-radius: 1%;
+}
+
+.centro {
+    text-align: center;
+    margin: 45px;
+}
+
+.letra {
+    font-family: 'Cinzel' !important;
+    font-size: 42px;
+}
+
+.letra2 {
+    font-family: 'Cinzel' !important;
+    font-size: 24px;
+}
+
+.mb-3 {
+    text-align: center !important;
+}
+
+.form-group {
+    text-align: center !important;
+    padding-bottom: 25px;
+}
+
+.form-control {
+    text-align: center !important;
+    margin-top: 7px;
+    width: 400px;
+    margin: 7px;
+}
+
+.form-inline {
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+.carousel-control-next {
+    display: none;
+}
+
+#galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 350px;
+}
+
+#galeria img:hover {
+    border: 5px solid #FFA17A;
+}
+
+@keyframes aparecer {
+    0% { opacity: 0;
+        }
+    100% {
+        opacity: 100;
+    }
+}
+
+/* .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% auto 15%;
+    grid-template-areas: 
+        "header header"
+        "contenido contenido"
+        "footer footer";
+} */
