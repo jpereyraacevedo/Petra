@@ -32,3 +32,19 @@ ul{
         border: 5px solid #f7f7f7;
     }
 }
+
+@mixin font-cinzel {
+    font-family: 'Cinzel';
+}
+
+li {
+    @include font-cinzel()
+}
+
+.letra {
+    @include font-cinzel()
+}
+
+.letra2 {
+    @include font-cinzel()
+}
