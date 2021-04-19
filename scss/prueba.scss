@@ -33,18 +33,18 @@ ul{
     }
 }
 
-// @mixin font-cinzel {
-//     font-family: 'Cinzel';
-// }
+@mixin font-cinzel {
+    font-family: 'Cinzel';
+}
 
-// li {
-//     @include font-cinzel()
-// }
+li {
+    @include font-cinzel()
+}
 
-// .letra {
-//     @include font-cinzel()
-// }
+.letra {
+    @include font-cinzel()
+}
 
-// .letra2 {
-//     @include font-cinzel()
-// }
+.letra2 {
+    @include font-cinzel()
+}
