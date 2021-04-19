@@ -1,5 +1,6 @@
 * {
     font-size: 20px;
+    font-family: ;
 }
 
 * {
@@ -85,6 +86,15 @@ ul li:hover ul {
 .container {
     max-width: 1200px; 
     margin: auto;
+}
+
+.letra {
+    font-family: 'Cinzel';
+}
+
+.letra2 {
+    font-family: 'Cinzel';
+    font-size: 14px;
 }
 
 .footer__margin {
