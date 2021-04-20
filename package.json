@@ -1,7 +1,7 @@
 {
   "name": "petra-design",
   "version": "1.0.0",
-  "description": "",
+  "description": "petra home and desing es una pagina dedicada a ofrecer el mejor servicio en cuanto a diseño de interiores se refiere, contando con una amplia experiencia en sus espaldas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
