@@ -26,8 +26,6 @@ footer {
     height: auto;
     margin: 35px;
     grid-area: footer;
-    animation-duration: 4s;
-    animation-name: aparecer;
 }
 
 h1 {
@@ -57,12 +55,13 @@ li {
     padding-left:25px;
     padding-right:25px;
     font-size: large;
-    /*font-family: 'Cinzel';*/
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    animation-duration: 4s;
-    animation-name: aparecer;
+}
+
+li {
+    font-family: 'Cinzel' !important;
 }
 
 ul ul {
@@ -88,6 +87,7 @@ ul li:hover ul {
 
 .letra {
     font-family: 'Cinzel';
+    font-weight: 400;
 }
 
 .letra2 {
@@ -133,6 +133,11 @@ ul li:hover ul {
     align-items: center;
 }
 
+.aparecer {
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
 .lead {
     font-size: 26px !important;
     font-style: italic;
@@ -146,9 +151,9 @@ ul li:hover ul {
     animation-duration: 4s;
 }
 
-.btn {
+/* .btn {
     font-family: 'Montserrat' !important;
-}
+} */
 
 .objetivos__forma {
     display: flex;
@@ -214,6 +219,10 @@ ul li:hover ul {
     font-size: 24px;
 }
 
+.textos {
+    font-family: 'Montserrat';
+}
+
 .mb-3 {
     text-align: center !important;
 }
@@ -236,6 +245,10 @@ ul li:hover ul {
 
 .form-group {
     text-align: center;
+}
+
+.btn {
+    font-family: 'Montserrat' !important;
 }
 
 .carousel-control-prev {
@@ -268,12 +281,3 @@ ul li:hover ul {
     }
 }
 
-/* .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20% auto 15%;
-    grid-template-areas: 
-        "header header"
-        "contenido contenido"
-        "footer footer";
-} */
