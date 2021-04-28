@@ -18,14 +18,15 @@ header {
 
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
     width: auto;
     height: auto;
-    margin: 35px;
+    margin-top: 35px;
     grid-area: footer;
+    background-image: linear-gradient( #fff, #FFA17A);
 }
 
 h1 {
@@ -149,11 +150,8 @@ ul li:hover ul {
     background-color: none !important;
     border: solid #FFA17A 2px;
     animation-duration: 4s;
+    font-size: 18px;
 }
-
-/* .btn {
-    font-family: 'Montserrat' !important;
-} */
 
 .objetivos__forma {
     display: flex;
