@@ -26,7 +26,6 @@ footer {
     height: auto;
     margin-top: 35px;
     grid-area: footer;
-    background-image: linear-gradient( #fff, #FFA17A);
 }
 
 h1 {
@@ -55,15 +54,14 @@ li {
     position: relative;
     padding-left:25px;
     padding-right:25px;
-    font-size: large;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
-li {
+/* li {
     font-family: 'Cinzel' !important;
-}
+} */
 
 ul ul {
     position: absolute;
@@ -213,7 +211,7 @@ ul li:hover ul {
 }
 
 .letra2 {
-        font-family: 'Cinzel' !important;
+    font-family: 'Cinzel' !important;
     font-size: 24px;
 }
 
@@ -255,6 +253,39 @@ ul li:hover ul {
 
 .carousel-control-next {
     display: none;
+}
+
+.texto-footer {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.ubicacion {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#item-ubicacion {
+    color: #FFA17A;
+    font-size: 16px;
+}
+
+#pie-footer {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
 
 #galeria .col-lg-4 {
