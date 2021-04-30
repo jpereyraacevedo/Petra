@@ -5,6 +5,19 @@
     color: #454839 !important;
 }
 
+.card {
+    margin: 10px;
+    max-height: 900px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body a {
+    font-weight: 700;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -45,6 +58,11 @@ h3 {
     margin: 15px;    
 }
 
+h5 {
+    text-align: center;
+    background-color: #FFA17A;
+}
+
 a {
     text-decoration: none;
 }
@@ -58,10 +76,6 @@ li {
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
-
-/* li {
-    font-family: 'Cinzel' !important;
-} */
 
 ul ul {
     position: absolute;
@@ -77,6 +91,7 @@ ul ul li {
 
 ul li:hover ul {
     display: block;
+    background-color: white;
 }
 
 .container {
