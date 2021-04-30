@@ -48,6 +48,7 @@ h1 {
     margin: 10px;
     border-bottom: solid #FFA17A 2px;
     animation-duration: 4s;
+    font-family: 'Montserrat';
 }
 
 h2 {
@@ -70,11 +71,11 @@ a {
 li {
     display:inline-block;
     position: relative;
-    padding-left:25px;
-    padding-right:25px;
-    font-weight: 600;
+    padding-left:35px;
+    padding-right:35px;
+    font-weight: 400;
     letter-spacing: 2px;
-    margin-bottom: 15px;
+    font-family: 'Montserrat';
 }
 
 ul ul {
@@ -116,6 +117,10 @@ ul li:hover ul {
 .gradiente__izquierda {
     background-image: linear-gradient(to left, #97C4A3, #006C71);
     border-radius: 1%;
+}
+
+.subrayado {
+    border-bottom: solid #FFA17A 2px;
 }
 
 .gradiente__derecha {
@@ -167,6 +172,7 @@ ul li:hover ul {
 }
 
 .objetivos__forma {
+    padding: 30px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,6 +238,11 @@ ul li:hover ul {
 
 .textos {
     font-family: 'Montserrat';
+    text-align: center;
+}
+
+.texto-tienda {
+    border-bottom: solid #27897E 2px;
 }
 
 .mb-3 {
@@ -260,6 +271,12 @@ ul li:hover ul {
 
 .btn {
     font-family: 'Montserrat' !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #FFA17A;
+    color: #27897E !important;
+    font-weight: 700;
 }
 
 .carousel-control-prev {
@@ -317,6 +334,10 @@ ul li:hover ul {
     border: 5px solid #FFA17A;
 }
 
+#tienda span:hover {
+    background-color: #FFA17A;
+}
+
 @keyframes aparecer {
     0% { opacity: 0;
         }
@@ -324,4 +345,3 @@ ul li:hover ul {
         opacity: 100;
     }
 }
-
