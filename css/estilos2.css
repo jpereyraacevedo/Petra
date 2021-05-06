@@ -84,15 +84,21 @@ ul ul {
 }
 
 ul ul li {
-    display: block;
+    display: flex;
     font-weight: 400;
     padding: 1px;
     border: 2px solid #FFA17A;
+    background-color: white;
 }
 
 ul li:hover ul {
     display: block;
     background-color: white;
+    padding: 5%;
+    justify-content:center; 
+    border-radius: 1%; 
+    z-index: 1;
+    text-align: center;
 }
 
 .container {
@@ -114,19 +120,19 @@ ul li:hover ul {
     margin: 5px;
 }
 
-.gradiente__izquierda {
-    background-image: linear-gradient(to left, #97C4A3, #006C71);
+/* .gradiente__izquierda {
+    background-image: linear-gradient(to bottom, white, #006C71);
     border-radius: 1%;
-}
+} */
 
 .subrayado {
     border-bottom: solid #FFA17A 2px;
 }
 
-.gradiente__derecha {
-    background-image: linear-gradient(to right, #97C4A3, #006C71);
+/* .gradiente__derecha {
+    background-image: linear-gradient(to top, #FFA17A, WHITE);
     border-radius: 1%;
-}
+} */
 
 .test {
     text-align: center;
@@ -341,7 +347,12 @@ ul li:hover ul {
 @keyframes aparecer {
     0% { opacity: 0;
         }
-    100% {
-        opacity: 100;
+    100% { opacity: 100;
     }
 }
+
+a:hover {
+    font-weight: bold;
+    opacity: 95%;
+    transition: .1s;
+  }
