@@ -128,7 +128,7 @@ ul li:hover ul {
 }
 
 .logo {
-    margin: 25px;
+    margin-top: 10px;
 }
 
 .cuerpo__contenido {
@@ -180,7 +180,7 @@ ul li:hover ul {
     margin: 7px;
     background-color: none !important;
     border: solid #FFA17A 2px;
-    animation-duration: 4s;
+    animation-duration: 3s;
     font-size: 18px;
 }
 
@@ -192,7 +192,7 @@ ul li:hover ul {
 }
 
 .aparecer {
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-name: aparecer;
 }
 
@@ -284,6 +284,7 @@ ul li:hover ul {
 
 .btn {
     font-family: 'Montserrat' !important;
+    margin: 20px;
 }
 
 .btn-outline-secondary:hover {
@@ -365,4 +366,28 @@ a:hover {
     opacity: 95%;
     transition: .1s;
   }
+
+.redes {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario {
+    border-radius: 1%;
+    border: solid 2px #27897E;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;   
+}
 
