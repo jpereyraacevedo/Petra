@@ -1,0 +1,40 @@
+li {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: large;
+  font-family: 'Cinzel';
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+  font-weight: 400;
+  padding: 1px;
+  border: 2px solid #27897E;
+}
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+li {
+  font-family: 'Cinzel';
+}
+
+.letra {
+  font-family: 'Cinzel';
+}
+
+.letra2 {
+  font-family: 'Cinzel';
+}
+/*# sourceMappingURL=prueba.css.map */

@@ -19,57 +19,52 @@
 </head>
 
 <body class="container">
-  <div>
-    <div class="col-12 text-center">
-      <header id="header">
-        <div>
-          <a href="index.html"><img class="logo" src="imagenes/logo3.png" height="140" alt="Logo de Petra"></a>
-        </div>
-        <div>
-          <ul>
-            <li> <a href="objetivos.html">Objetivos</a></li>
-            <li> <a href="portfolio.html">Portfolio</a></li>
-            <li> <a href="conocenos.html">Quienes somos</a></li>
-            <li> <a href="tienda.html">Tienda</a></li>
-            <li> <a href="contactanos.html">Contactanos</a>
-              <ul>
-                <li><a href="https://www.facebook.com">Facebook</a></li>
-                <li><a href="https://www.instagram.com">Instagram</a></li>
-                <li><a href="contactanos.html">Dejanos tu consulta</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </header>
-    </div>
-    <!--Inicio contenido de la pagina-->
-    <div class="index-contenido textos">
+  <div class="col-12 text-center">
+    <header id="header">
       <div>
-        <h1>Contactate con nosotros</h1>
+        <a href="index.html"><img class="logo" src="imagenes/logo3.png" height="140" alt="Logo de Petra"></a>
       </div>
-      <div class="formulario">
-        <form class="centro">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Tu correo:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="tucorreo@ejemplo.com">
-            <small id="emailHelp" class="form-text text-muted">No compartiremos esta informacion con nadie.</small>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+      <div>
+        <ul>
+          <li> <a href="objetivos.html">Objetivos</a></li>
+          <li> <a href="portfolio.html">Portfolio</a></li>
+          <li> <a href="conocenos.html">Quienes somos</a></li>
+          <li> <a href="tienda.html">Tienda</a></li>
+          <li> <a href="contactanos.html">Contactanos</a>
+            <ul>
+              <li><a href="https://www.facebook.com">Facebook</a></li>
+              <li><a href="https://www.instagram.com">Instagram</a></li>
+              <li><a href="contactanos.html">Dejanos tu consulta</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+  <!--Inicio contenido de la pagina-->
+  <section class="home">
+    <div class="in-flex">
+      <h1 class="text-center">Contactate con nosotros</h1>
+      <div class="formulario mensaje">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Tu correo:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@ejemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Queremos saber de vos!"></textarea>
           <div class="form-check botoncito">
             <input type="checkbox" class="form-check-input botoncito2" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Subscribirse a
+            <label class="form-check-label px-1" for="exampleCheck1">Subscribirse a
               <strong class="letra2">Petra</strong>
             </label>
           </div>
           <button type="submit" class="btn btn-outline-secondary">Enviar</button>
-        </form>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
   <!--Inicio de la seccion footer-->
   <div id="footer">
     <div class="container">
